@@ -1,0 +1,325 @@
+body {
+    margin: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.30)), url("images/background.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+.viewGrid {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+footer {
+    flex: 0 1 80px;
+    padding: 1.4rem;
+    color: white;
+    display: flex;
+    background-color: #1a1a1a;
+}
+
+footer h4 {
+    margin-right: 4.6rem;
+    margin-bottom: 0.8rem;
+}
+
+.footer-element {
+    margin-right: 3rem;
+}
+
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navBar {
+    display: block;
+    padding: 1.3rem;
+}
+
+.navBar a {
+    -webkit-transition: color .20s;
+    -moz-transition:    color .20s;
+    -ms-transition:     color .20s;
+    -o-transition:      color .20s;
+    transition:         color .20s;
+    color: white;
+    margin-right: 1.2rem;
+    font-size: 1.3rem;
+}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover {
+    text-decoration: none;
+    color: #868686;
+}
+a:active { text-decoration: none; }
+
+.round-btn {
+    float:right;
+    margin-left : 2rem;
+    font-size: 1rem;
+    display:block;
+    height: 2rem;
+    width: 2rem;
+    color: white;
+    border-radius: 50%;
+    background-color: rgba(37, 38, 40, 0.24);
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    border: 1px solid #252628;
+}
+
+.mainView {
+    color: white;
+    padding: 1.3rem;
+}
+
+.mainView .frame-holder {
+    justify-content: center;
+    margin-bottom: 3.25rem;
+    text-align: center;
+}
+
+.mainView .productHolder {
+    justify-content: center;
+    text-align: center;
+}
+
+.productsTable {
+    width: 100%;
+    background-color: rgb(26, 26, 26);
+    border-radius: .5rem;
+    padding: 1.5rem;
+    margin-top: 3rem;
+    text-align: left;
+    color: white;
+}
+
+.productsTable tr{
+    padding: 1rem;
+    margin: 3rem;
+}
+
+.productsTable td{
+    padding: 1rem;
+    margin: 3rem;
+}
+
+.clientProductsTable {
+    background-color: rgb(26, 26, 26);
+    border-radius: .5rem;
+    padding: 1.5rem;
+    margin-top: 3rem;
+    text-align: left;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.clientProductsTable img {
+    max-height: 15rem;
+    max-width: 15rem;
+}
+
+.clientProductsTable h2 {
+    margin: 0;
+    padding-left: 1rem;
+}
+
+.productCost {
+    margin: 0;
+    padding-left: 1rem;
+}
+
+.clientProductsTable .productDescription {
+    word-wrap: break-word;
+    max-width: 30rem;
+    background-color: rgb(26, 26, 26);
+    margin: 0;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.clientProductsTable .actions {
+    padding: 2.5rem;
+}
+
+.formDiv {
+    justify-content: center;
+    margin-bottom: 1rem;
+    text-align: center;
+    display: flex;
+    height: 40rem;
+}
+
+
+
+.actions a {
+    border-radius: .4rem;
+    text-align: center;
+    margin: .2rem;
+    width: 5rem;
+    padding: .5rem;
+    background-color: #3e3e3e;
+    -webkit-transition: color .20s;
+    -moz-transition:    color .20s;
+    -ms-transition:     color .20s;
+    -o-transition:      color .20s;
+    transition:         color .20s;
+    color: white;
+    font-size: 1rem;
+}
+
+.actions .btnRed {
+    background-color: rgba(157, 0, 0, 0.84);
+}
+
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover {
+    text-decoration: none;
+    color: #868686;
+}
+a:active { text-decoration: none; }
+
+.formBox {
+    background-color: rgba(26, 26, 26, 0.91);
+    width: 25rem;
+    border-radius: 1rem;
+}
+
+.formBox h1 {
+    margin-bottom: 4rem;
+}
+.formBox h2 {
+    text-align: left;
+    margin: 3rem;
+}
+
+.bottomView {
+    padding: 1.3rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(37, 38, 40, 0.42);
+    color:white;
+    margin-top: 10.47rem;
+}
+
+.box {
+    flex: 1 0 0;
+}
+
+.box h2 {
+    text-align: center;
+}
+
+.box i {
+    display: block;
+    text-align: center;
+    font-size: 7rem;
+}
+
+.box h4 {
+    text-align: center;
+    padding: 1.9rem;
+}
+
+.inline-elements {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inline-elements i {
+    margin-right: 1rem;
+    display: block;
+    align-content: center;
+}
+
+.inline-elements h5 {
+    margin: .5rem;
+}
+
+.inputContainer {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+
+.inputContainer label {
+    position: absolute;
+    font-size: 0.8rem;
+    color: #ffffff;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.inputContainer input {
+    width: 70%;
+    border: 0;
+    background-color: transparent;
+    border-bottom: .1em solid #ffffff;
+    color: white;
+    padding: 1rem;
+}
+
+.f-button {
+    outline: 0;
+    border: 0;
+    background: none;
+    margin: 1rem;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3rem;
+    transition: all 0.3s ease;
+}
+.f-button.red {
+    position: relative;
+    border: .1em solid rgba(36, 93, 217, 0.58);
+    color: rgb(255, 255, 255);
+}
+.f-button.red.active,
+.f-button.red:active,
+.f-button.red:hover {
+    background: rgba(36, 93, 217, 0.44);
+    color: #fff;
+}
+
+.formDivMod {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.formBoxModify {
+    background-color: rgba(26, 26, 26, 0.82);
+    border-radius: 1rem;
+}
+
+.modifyForm {
+    padding: 3rem;
+    display: flex;
+}
+
+.modifyForm .productImage {
+    display: inline;
+}
+
+.buyButton {
+    margin: 2rem;
+    background-color: #1a1a1a;
+}
+
+.buyButton h3 {
+    padding: 2rem;
+}
+.buyButton button {
+    border-radius: .5rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
